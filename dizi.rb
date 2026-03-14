@@ -16,3 +16,13 @@ array[0] = "e" # ilk eleman değişti
 #NİL METODU İLE SORGULAYABİLİRİZ ELEMAN   VAR MI DİYE
 puts dizi[4].nil ? #ile true ise boş  
 dizi << "g" # ekler
+array = array1.slice(3,2) #3 ye kadar diziyi böleceğimizi 2 ile kaç parametre alacağımız gösterdik
+
+
+sehirler = ["konya","istanbul","antalya","izmir","samsun"]
+
+sehirler2 = ["burdur","amasya","konya","izmir","ordu"]
+
+#kesisim alma
+bosdizi = sehirler & sehirler2  # | birleşim alır
+
